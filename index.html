@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Timer App</h1>
+    <p>Enter duration:</p>
+    <input type="number" id="hours" min="0" max="23" placeholder="Hours">
+    <input type="number" id="minutes" min="0" max="59" placeholder="Minutes" />
+    <input type="number" id="seconds" min="0" max="59" placeholder="Seconds">
+    <br><br>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+    <button onclick="stopTimer()">Stop</button>
+    <audio id="sound" src="sound.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
